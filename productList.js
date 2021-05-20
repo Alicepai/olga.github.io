@@ -55,10 +55,11 @@ const app = {
             })
         },
         Logout(){
+            delete axios.defaults.headers.common["Authorization"];
             axios.post(`${url}logout`)
             .then(res=>{
+                console.log(res)
                 swal("登出成功",`三秒後返回登入頁面` ,"success");
-                delete axios.defaults.headers.common["Authorization"];
                 setTimeout(()=>{
                     window.location.href="./index.html"
                 },3000)

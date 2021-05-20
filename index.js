@@ -9,8 +9,8 @@ function Login(){
     //1.check ifboth input are not empty
     if(emailInput.value == '' || pwdInput.value == ''){
             swal({
-        title: "",
-        text: "帳號、密碼不得為空",
+        title: "帳號、密碼不得為空",
+        text: "",
         });
         return;
     }
