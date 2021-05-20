@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <button type="button" id="logout">登出</button>
+    </header>
+    <div class="container">
+        <table >
+            <thead>
+                <tr>
+                    <th>產品名稱</th>
+                    <th>原價</th>
+                    <th>售價</th>
+                    <th>批貨狀態</th>
+                    <th>刪除</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>blogr</td>
+                    <td>25</td>
+                    <td>75</td>
+                    <td>
+                        <div >
+                            <input type="checkbox" >
+                            <label >已批貨</label>
+                        </div>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger">刪除</button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+        <p>總共<span id="product_num">0</span>件商品</p>
+    </div>
+    <script src="./productList.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height:100vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #f5f5f5;
+}
+.wrapper{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.loginCard{
+    background-color: #454141;
+    width:50%;
+    margin: 0 auto;
+    height:500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+.form-control{
+    margin-top: 3rem;
+}
+input,label{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height:3rem;
+    font-size: 1.8rem;
+}
+input{
+    padding: 0.5rem;
+}
+#loginbtn{
+    width: 45%;
+    margin: 5rem auto;
+    padding:1rem 1.5rem;
+    cursor: pointer;
+}
+
+/* product list */
+.header{
+    background-color: #818181;
+    height:45px;
+    margin-bottom: 3rem;
+}
+button{
+    cursor: pointer;
+}
+#logout{
+    border: 0;
+    padding:.5rem 1.5rem;
+    margin-left: .5rem;
+    margin-top: .3rem;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.card{
+    width: 50%;
+    margin: 0 auto 3rem;
+    border: 3px solid #000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+.card label{
+    display: block;
+}
+h3{
+    margin: 0;
+}
+.btn{
+    border: unset;
+    outline: 0;
+    padding: .5rem 1.5rem;
+}
+.submit{
+    width:25%;
+    margin: 1rem auto;
+    background-color: blue;
+    color: #fff;
+}
+table,tr{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.btn-danger{
+    background-color: red;
+    color: #fff;
+}
+tbody tr>td{
+    border-bottom: 1px solid #000;
+    padding: 1rem;
+
+}
