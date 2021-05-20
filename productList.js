@@ -55,7 +55,6 @@ const app = {
             })
         },
         Logout(){
-            delete axios.defaults.headers.common["Authorization"];
             axios.post(`${url}logout`)
             .then(res=>{
                 console.log(res)
